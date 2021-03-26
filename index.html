@@ -2,21 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <title>Tailwindcss project</title>
 </head>
 <body>
-<header>
-    <nav>
-        <a>Brand</a>
+<header class="bg-gray-800">
+    <nav class="flex justify-around items-center">
+        <a class="text-4xl lg:text-7xl md:text-5xl sm:text-4-l bont-black text-gray-100 " href="#">WowPelis</a>
+        <a class="py-10 bg-gray-800"><img class="w-28" src="img/logo3.png" alt="logo"></a>
     </nav>
 </header>
 <section>
 <!-- Cover image -->
-    <figure></figure>
+    <figure class="bg-gray-700">
+        <img class="h-auto" src="img/banner.jpg" alt="">
+    </figure>
 </section>
 <section>
 <!-- grid of images here-->
+<div class="md:container">
+    <h2 class="text-lg lg:text-4xl lg:py-5 my-5 px-10 lg:grid-cols-3 md:grid-cols-2-text sm:grid-cols-1 ">Popular Movies</h2>
+    <article class="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5  px-10 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 ">
+        <img class="rounded-3xl" src="img/img1.jpg" alt="">
+        <img class="rounded-3xl" src="img/img1.jpg" alt="">
+        <img class="rounded-3xl" src="img/img1.jpg" alt="">
+        <img class="rounded-3xl" src="img/img1.jpg" alt="">
+        <img class="rounded-3xl" src="img/img1.jpg" alt="">
+        <img class="rounded-3xl" src="img/img1.jpg" alt="">
+        <img class="rounded-3xl" src="img/img1.jpg" alt="">
+        <img class="rounded-3xl" src="img/img1.jpg" alt="">
+        <img class="rounded-3xl" src="img/img1.jpg" alt="">
+        <img class="rounded-3xl" src="img/img1.jpg" alt="">
+        <img class="rounded-3xl" src="img/img1.jpg" alt="">
+        <img class="rounded-3xl" src="img/img1.jpg" alt="">
+        <img class="rounded-3xl" src="img/img1.jpg" alt="">
+        <img class="rounded-3xl" src="img/img1.jpg" alt="">
+        <img class="rounded-3xl" src="img/img1.jpg" alt="">
+        <img class="rounded-3xl" src="img/img1.jpg" alt="">
+        <img class="rounded-3xl" src="img/img1.jpg" alt="">
+        <img class="rounded-3xl" src="img/img1.jpg" alt="">
+        <img class="rounded-3xl" src="img/img1.jpg" alt="">
+        <img class="rounded-3xl" src="img/img1.jpg" alt="">
+    </article>
+</div>
 </section>
 </body>
 </html>
